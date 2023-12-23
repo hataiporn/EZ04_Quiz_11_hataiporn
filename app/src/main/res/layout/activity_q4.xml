@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6EAF8"
+    tools:context=".Q4">
+
+
+    <Button
+        android:id="@+id/c1"
+        android:layout_width="126dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="284dp"
+        android:text=" 5 นาที			"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/c2"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="284dp"
+        android:text="20 นาที"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/c3"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="196dp"
+        android:text="12 นาที	"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/c4"
+        android:layout_width="125dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="196dp"
+        android:text="13 นาที"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="347dp"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:text="เครื่องบินลำแรกสามารถบินในอากาศได้นานกี่นาที ?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="223dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/q4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

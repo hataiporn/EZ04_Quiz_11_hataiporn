@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6EAF8"
+    tools:context=".Q9">
+
+
+    <Button
+        android:id="@+id/h1"
+        android:layout_width="215dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="280dp"
+        android:text="การบินไทยสมายล์ "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/h2"
+        android:layout_width="212dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="208dp"
+        android:text="ไทยไลอ้อนแอร์"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/h3"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="144dp"
+        android:text=" การบินไทย"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/h4"
+        android:layout_width="205dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="76dp"
+        android:text="ไทยเวียดเจ็ทแอร์"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="347dp"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:text="รูปดังกล่าวเป็นรูปเครื่องบินจากสายการบินอะไร ?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="223dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/q9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

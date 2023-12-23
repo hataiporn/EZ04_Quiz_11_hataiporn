@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6EAF8"
+    tools:context=".Q2">
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="215dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="280dp"
+        android:text="ออวิลล์ และ วิลเบอร์ ไรต์"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="212dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="208dp"
+        android:text="อัลเบิร์ต ไอน์สไตน์"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="144dp"
+        android:text="อัลเฟรด โนเบล"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="205dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="76dp"
+        android:text="เซอร์ ทิม เบอร์เนอร์ส-ลี"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="347dp"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:text="คนคิดค้นเครื่องบินลำแรกของโลก คือใคร?"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="223dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/q2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
